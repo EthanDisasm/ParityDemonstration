@@ -5,9 +5,10 @@ using namespace std;
 int main () {
 
     uint8_t Memory = 0b10110000;
-
-cout << int(Memory); 
-
+    int accumulator = 0;
+    for (int i = 0; i < 8 ; i++){
+        
+    }
 
 return 0; 
 }
