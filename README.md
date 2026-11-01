@@ -2,6 +2,7 @@
 A tiny C++ program that shows how a single parity bit can detect a one-bit error in a byte — and where that method breaks down.
 
 **What it does**
+
 Starts with an 8-bit value (one byte).
 Computes a 9th bit, the parity bit, by XOR-ing all 8 bits together.
 Flips a bit to simulate memory corruption.
