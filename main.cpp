@@ -12,7 +12,7 @@ int main () {
     for (int i = 0; i < 8 ; i++){
         accumulator ^= (Memory >> i) & 1;
     }
-    cout << "The parity bit for a memory value of: " << Memory << "is: " << accumulator;
+    cout << "The parity bit for a memory value of: " << int(Memory) << " is " << accumulator;
 
 return 0; 
 }
