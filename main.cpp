@@ -10,7 +10,8 @@ int main () {
     uint8_t Memory = 0b10110000;
     int accumulator = 0;
     for (int i = 0; i < 8 ; i++){
-        accumulator ^ 
+        accumulator ^= (Memory >> i) & 1;
+        cout << accumulator;
     }
 
 return 0; 
